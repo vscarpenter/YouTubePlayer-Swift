@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MR_YouTubePlayer.xcodeproj">
+      location = "self:KatieTube.xcodeproj">
    </FileRef>
 </Workspace>

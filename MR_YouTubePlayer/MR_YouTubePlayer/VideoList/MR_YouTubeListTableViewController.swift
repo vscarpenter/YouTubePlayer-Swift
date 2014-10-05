@@ -160,19 +160,21 @@ class MR_YouTubeListTableViewController: UITableViewController,UITableViewDataSo
                 if error == nil {
                     var videoString: String?
                     var videoFormat: String!
-                    switch qualityType {
-                    case .Hd720:
-                        videoString = videoFormatDictionary["hd720"] as AnyObject? as? String
-                        videoFormat = "HD720"
-                    case .Medium:
-                        videoString = videoFormatDictionary["medium"] as AnyObject? as? String
-                        videoFormat = "Medium"
-                    case .Low:
-                        videoString = videoFormatDictionary["small"] as AnyObject? as? String
-                        videoFormat = "Low"
-                    default:
-                        println("default case excuted")
-                    }
+                    videoString = videoFormatDictionary["hd720"] as AnyObject? as? String
+                    videoFormat = "HD720"
+//                    switch qualityType {
+//                    case .Hd720:
+//                        videoString = videoFormatDictionary["hd720"] as AnyObject? as? String
+//                        videoFormat = "HD720"
+//                    case .Medium:
+//                        videoString = videoFormatDictionary["medium"] as AnyObject? as? String
+//                        videoFormat = "Medium"
+//                    case .Low:
+//                        videoString = videoFormatDictionary["small"] as AnyObject? as? String
+//                        videoFormat = "Low"
+//                    default:
+//                        println("default case excuted")
+//                    }
                     
                     if videoString == nil {
                         var alert = UIAlertController(title: "Error", message: "This video don't supports \(videoFormat),\n Please play the video with other formats.", preferredStyle: UIAlertControllerStyle.Alert)
