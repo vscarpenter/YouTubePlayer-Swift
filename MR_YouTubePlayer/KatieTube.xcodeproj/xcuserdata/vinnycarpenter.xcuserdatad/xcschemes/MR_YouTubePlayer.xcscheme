@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "26370DA819D3FA5000F3F079"
-               BuildableName = "MR_YouTubePlayer.app"
+               BuildableName = "KatieTube.app"
                BlueprintName = "MR_YouTubePlayer"
                ReferencedContainer = "container:KatieTube.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "26370DA819D3FA5000F3F079"
-            BuildableName = "MR_YouTubePlayer.app"
+            BuildableName = "KatieTube.app"
             BlueprintName = "MR_YouTubePlayer"
             ReferencedContainer = "container:KatieTube.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "26370DA819D3FA5000F3F079"
-            BuildableName = "MR_YouTubePlayer.app"
+            BuildableName = "KatieTube.app"
             BlueprintName = "MR_YouTubePlayer"
             ReferencedContainer = "container:KatieTube.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "26370DA819D3FA5000F3F079"
-            BuildableName = "MR_YouTubePlayer.app"
+            BuildableName = "KatieTube.app"
             BlueprintName = "MR_YouTubePlayer"
             ReferencedContainer = "container:KatieTube.xcodeproj">
          </BuildableReference>

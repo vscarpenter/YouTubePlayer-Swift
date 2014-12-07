@@ -29,7 +29,8 @@
 import UIKit
 import MediaPlayer
 
-public let searchYouTubeVideoUrlString : String = "http://gdata.youtube.com/feeds/api/videos"
+//public let searchYouTubeVideoUrlString : String = "http://gdata.youtube.com/feeds/api/videos"
+public let searchYouTubeVideoUrlString : String = "http://gdata.youtube.com/feeds/api/playlists/PL7fepgE0Mmx_5W89npull9RScdgGJk-oO"
 
 class MR_YouTubeListTableViewController: UITableViewController,UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate {
     
